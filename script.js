@@ -20,11 +20,11 @@ $(document).ready(function () {
     // convert displayed hour to AM /PM
     var hourDisplay = "";
     if (i < 12) {
-      hourDisplay = i + "AM";
+      hourDisplay = i + ":00 AM";
     } else if (i === 12) {
-      hourDisplay = i + "PM";
+      hourDisplay = i + ":00 PM";
     } else {
-      hourDisplay = i - 12 + "PM";
+      hourDisplay = i - 12 + ":00 PM";
     }
     // section out display into 3 total columns for: displayed hour(2/12), text area(8/12), and save button (2/12)
     // add class attributes for sectioning via bootstrap
