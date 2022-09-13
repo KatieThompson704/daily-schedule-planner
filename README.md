@@ -26,4 +26,5 @@ THEN the saved events persist
 
 Access the application here: https://katiethompson704.github.io/daily-schedule-planner/
 
-See Below for screenshots of the deployed application
+See Below for a screenshot of the deployed application:
+<img src = "assets\planner-screenshot-1.png">
